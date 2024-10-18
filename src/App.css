@@ -1,0 +1,56 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.rbc-calendar {
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.rbc-toolbar {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.rbc-event {
+  background-color: #1e90ff;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.rbc-today {
+  background-color: #e3f7fc;
+}
+
+.rbc-off-range {
+  color: #ddd;
+}
+
+.rbc-time-slot {
+  border: 1px solid #e5e5e5;
+}
+
+.rbc-time-content {
+  border-top: 1px solid #ccc;
+}
+
+.rbc-btn-group button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.rbc-btn-group button:hover {
+  background-color: #f0f0f0;
+}
